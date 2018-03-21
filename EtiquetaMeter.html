@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1> Etiqueta Meter</h1>
+    <!-- La etiqueta <meter> permite la creación de medidores para
+    mostrar el nivel o estado de algún detalle. Este control es
+    muy útil para ciertas tareas donde se debe mostrar información
+    que se puede representar mediante un medidor que traspase ciertos umbrales.
+
+    Un ejemplo clásico es el medidor de seguridad de una contraseña,
+    donde puede reflejar de forma gráfica y sencilla si la contraseña
+    tiene un nivel de seguridad bajo, medio o alto, incluso especificando
+    diferentes grados de nivel.
+
+    Atributos
+    min: Valor mínimo que puede alcanzar el medidor.
+    max: Valor máximo que puede alcanzar el medidor.
+    value: Cantidad actual del medidor.
+    low : Indica el umbral donde se considera medio-alto.
+    high: Indica el valor óptimo del medidor.
+    optimun: Indica el valor óptimo del medidor. -->
+    <h4>Medidor con valor en umbral alto</h4>
+    <br>
+    <meter min="0" max="100"
+         low="25" high="75"
+         optimum="100" value="75"> </meter>
+    <h4>Medidor con valor en umbral medio</h4>
+    <br>
+    <meter min="0" max="100"
+         low="25" high="75"
+         optimum="100" value="35"> </meter>
+    <h4>Medidor con valor en umbral bajo</h4>
+    <br>
+    <meter min="0" max="100"
+         low="25" high="75"
+         optimum="100" value="15"> </meter>
+
+
+  </body>
+</html>
